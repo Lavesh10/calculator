@@ -8,7 +8,7 @@ class calci
     System.out.println("Enter two no.s");
     int no3=in.nextInt();
     int no4=in.nextInt();
-    int pro=no3*no4;
-    System.out.println("product="+pro);
+    int pr=no3*no4;
+    System.out.println("product="+pr);
   }
 }
