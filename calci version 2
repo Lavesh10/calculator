@@ -1,2 +1,14 @@
-java
-core java
+import java.io.*;
+import java.util.*;
+class calci
+{
+  public static void main(String args[])throws IOException
+  {
+    Scanner in=new Scanner(System.in);
+    System.out.println("Enter two no.s");
+    int no3=in.nextInt();
+    int no4=in.nextInt();
+    int pro=no3*no4;
+    System.out.println("product="+pro);
+  }
+}
